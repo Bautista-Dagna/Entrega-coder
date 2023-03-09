@@ -1,0 +1,448 @@
+
+/*inicio*/
+
+
+
+.header {background-color: red;}
+.footer {background-color: black;}
+
+
+body { min-height: 100vh;
+    display: grid; 
+    grid-template-areas: 
+    "header" 
+    "contenido"
+     "footer";
+    grid-template-columns: 100%;
+    grid-template-rows: 15% 80% 5%;
+    background-color:rgb(243, 229, 214);
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%
+}
+
+
+
+/*header gridarea*/
+.header {grid-area: header;}
+
+/*main gridarea*/
+.contenido {margin: 20vh 0 0 0; grid-area:contenido;}
+/*footer gridarea*/
+.footer {grid-area: footer;}
+
+/*RESPONSIVE*/
+
+
+/*menora a 1024px*/
+
+
+@media screen and (max-width: 1024px)  { 
+    
+    body { min-height: 100vh;
+        display: grid; 
+        grid-template-areas: 
+        "header" 
+        "contenido"
+         "footer";
+        grid-template-columns: 100%;
+        grid-template-rows: 15% 80% 5%;
+        background-color:rgb(243, 229, 214);
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%
+    }
+    
+    }
+    
+
+    /*menora a 769px*/
+
+
+@media screen and (max-width: 768px) {
+    
+    
+    body { min-height: 100vh;
+        display: grid; 
+        grid-template-areas: 
+        "header" 
+        "contenido"
+         "footer";
+        grid-template-columns: 100%;
+        grid-template-rows: 15% 80% 5%;
+        background-color:rgb(243, 229, 214);
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%
+    }
+        
+    }
+
+
+
+
+    /*menor a 448px*/
+@media screen and (max-width: 448px) {
+    
+    
+    body { min-height: 100vh;
+        display: grid; 
+        grid-template-areas: 
+        "header" 
+        "contenido"
+         "footer";
+        grid-template-columns: 100%;
+        grid-template-rows: 15% 80% 5%;
+        background-color:rgb(243, 229, 214);
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%
+    }
+        
+    }
+
+
+
+/*color diferente para plantel*/
+.custom-background {
+    background-color: rgb(243, 229, 214);
+}
+
+/*evitar que se marque cuando selecciono un html*/
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+
+/*barra arribba*/
+.presentacion { font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+       display: flex;
+    justify-content: space-between;
+    position: fixed;
+    background-color: black;
+    color: whitesmoke;
+    width: 100%;
+    height: 10vh;
+    margin: 0 auto;
+    top: 0; left: 0;
+}
+.escudoTitulo {    display: flex;}
+
+#fotoarriba {
+   
+    width: 100px;
+    height: 100px;
+}
+
+/*segunda barra*/
+.encabezado {
+ 
+    font-family: 'Open Sans', sans-serif;
+    list-style-type: none;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 10vh
+}
+.menu {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 9vh;
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 0 auto;
+
+    top: 10vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#textopres {
+    position: relative;
+    text-align: left;
+}
+
+.arreglo {display: flex; justify-content: space-between; width: 100%;}
+
+/*contacto*/
+#contactobarra {
+font-size: 12px;
+    margin-top: 63px;
+    margin-right: 60px;
+    text-transform: uppercase;
+    width: 75px;
+    height: 75px;
+   
+}
+
+
+
+.logo-inicio {
+    display: flex;
+    left: 100px;
+}
+
+.fotoNav {
+    position: relative;
+    text-transform: uppercase;
+    width: 80px;
+    height: 100%;
+    text-align: justify;
+    font-size: 20px
+}
+
+
+/*footer logos*/
+.ulfooter {
+    list-style-type: none;
+    display: flex;
+}
+
+#logoinstagram {
+    width: 35px;
+    height: 35px;
+    left: 30px;
+}
+
+#logotwitter {
+    width: 35px;
+    height: 35px;
+    right: 30px;
+}
+
+/*pagina inicio*/
+
+.contenedorInicio {      display: flex; justify-content: space-between;                       }
+
+.videoinicio {   width: 650px;
+    height:400px   ;     
+     display: flex; 
+     justify-content: space-between;    }
+
+.imageninicio  { width: 400px;
+    height: 400px;     
+     display: flex; 
+     justify-content: space-between;
+      overflow: hidden; ; }
+
+.textoinicio {font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+     justify-content: space-around; }
+
+
+
+.estrellainicio {width: 100px;}
+
+
+
+/*pagina indumentaria*/
+
+.alinearConjunto {  display: flex ;
+    justify-content: center; }
+
+
+.conjunto 
+ {width: 400px;height: 600px; 
+
+    display: inline-block;} 
+
+
+    #figcaptionconjunto {color:black;text-align: center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+
+/*BOX MOD PLANTEL*/
+#cajas__plantel{display: flex;
+    justify-content: space-evenly;}
+
+
+.boxjugadores {
+    width: 200px;
+    height: 300px;
+    ;
+    border: solid black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-top: 20px;
+    border-left: 20px;
+    border-right: 20px;
+    border-bottom: 20px;
+    display: inline-block;
+    box-shadow: 4px 2px 8px 3px rgba(255, 141, 141, 0.49);   
+     padding: 8px;
+     background-color: rgb(126, 8, 8);
+}
+
+/*IMAGENES*/
+#imagenbautitra {
+    width: 200px;
+    height: 180px;
+}
+
+#imagenBonino {
+    width: 200px;
+    height: 180px;
+}
+
+#imagenFranquito {
+    width: 200px;
+    height: 180px;
+}
+
+#imagenFran {
+    width: 200px;
+    height: 180px;
+}
+
+#imagenGonza {
+    width: 200px;
+    height: 180px;
+}
+
+
+
+h4 {
+    color: rgb(218, 201, 201);
+    font-style:italic ;
+
+    
+}
+
+
+
+
+/*sponsors*/
+
+
+.pasodelostoros .adidas { width: fit-content; height: fit-content;
+    text-align:start; display: inline-block; border-top: 20px; border-right: 20px;
+     
+      
+        
+    }
+    .uno    { -webkit-box-shadow: inset 0px 0px 15px 0px rgba(255,87,87,0.75);
+        -moz-box-shadow: inset 0px 0px 15px 0px rgba(255,87,87,0.75);
+        box-shadow: inset 0px 0px 15px 0px rgba(255,87,87,0.75); border-top: 10px; border-right:10px;
+    
+    }
+    
+        h5 {font-size: 25px;text-align: center;}
+    
+        #titulosponsor {    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            text-align: center;
+            font-size: 30px;}
+    
+        /*para que queden uno al lado del otro, no cuenta para actividad*/
+        
+        
+        .sponsor {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            align-content: space-around;
+            flex-wrap: wrap;
+            flex-direction: row;}
+
+
+
+
+/*EL CLUB*/
+.hya {
+    display: flex;
+    justify-content: space-around;}
+
+.boxHistoria {
+    width: 700px;
+    height: auto;
+    background-color: rgb(243 229 214);
+    overflow: visible;
+    border: 10px;
+    padding: 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    -webkit-box-shadow: inset 4px 5px 29px 14px rgba(0,0,0,0.79); 
+box-shadow: inset 4px 5px 29px 14px rgba(0,0,0,0.79);
+
+}
+
+#tituloHistoria {font-size: 35px;font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+
+.divimagenes {
+    width: 100%;
+    height: auto;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.imagen33 {
+
+    width: 200px;
+    height: 200px;
+    display: flex;
+    border: 10px;
+display: flex;
+    position: relative;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    justify-content: center;
+}
+
+/*autoridades*/
+.boxAutoridades {
+    
+        width: fit-content;
+        height: 350px;
+        padding: 5px;
+        background-color: rgb(243 229 214);
+        border-color: grey;
+        border: solid;
+        text-align: center;
+        display: inline-block;
+        overflow: auto;
+        -webkit-box-shadow: inset 4px 5px 29px 14px rgba(0,0,0,0.79); 
+        box-shadow: inset 4px 5px 10px 14px rgba(0,0,0,0.79);
+    }
+
+
+
+#ulAutoridades {
+    list-style-type: square;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*pie de pagina*/
+.piedepag {
+    display: flex;
+   
+    width: 100%;
+   
+}
