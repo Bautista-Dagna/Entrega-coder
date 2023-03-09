@@ -1,5 +1,10 @@
 
+
+/*navbar elclub*/
+.logo-navboots { width: 5vh;}
+
 /*inicio*/
+
 
 
 
@@ -93,19 +98,6 @@ body { min-height: 100vh;
 
     .header-indumentaria { width: 5vh;}
 
-    body { min-height: 100vh;
-        display: grid; 
-        grid-template-areas: 
-        "header" 
-        "contenido"
-         "footer";
-        grid-template-columns: 100%;
-        grid-template-rows: 15% 80% 5%;
-        background-color:rgb(243, 229, 214);
-        margin: 0;
-        padding: 0;
-        border: 0;
-        font-size: 100%
     }
         
     }
